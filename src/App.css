@@ -176,3 +176,67 @@ html{
     font-size: 1.5rem;
     color:white;
 }
+
+/* responsive view  */
+
+@media screen and (max-width:900px) {
+    
+    .header{
+        padding:15px 0;
+        font-size:.9rem;
+    }
+    .whoWeAre,.whatWeThink,.expertise{
+        padding:40px 15px;
+    }
+
+    .whoWeAre>img,.whatWeThink>img,.expertise>img{
+        height:200px;
+    }
+
+    .whoWeAre__info,.expertise__info,.whatWeThink__info,.location__info{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+    .header__menu>a{
+        font-size:.7rem;
+        padding:0 10px;
+
+    }
+    .intro{
+        min-height:40vh;
+    }
+    .into__info{
+        padding:0;
+        font-size: 10px;
+    }
+    .whoWeAre,.whatWeThink,.expertise,.location{
+        flex-direction: column;
+        align-items: center;
+        padding:20px 0;
+    }
+    .expertiseOptions{
+        flex-direction:column;
+    }
+    .expertiseOptions>.option{
+        width:100%;
+    }
+    .whatWeThink__info,.whoWeAre__info,.expertise__info,.location__info{
+        padding:40px 10px;
+        /* text-align:center; */
+    }
+    iframe{
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width:500px){
+    .header__menu>a{
+        font-size: .5rem;
+        padding:0 5px;
+    }
+    
+}
