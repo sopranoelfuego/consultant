@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    padding: 10px 70px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 80vh;
+}
+.info{
+    width: 50%;
+
+}
+.icon{
+    width: 50%;
+  text-align: center;
+  height: auto;
+  height: 100px!;
+}
+.info__gestion >p {
+  font-size: 20px;
+  text-align: left;
+ 
+
+}

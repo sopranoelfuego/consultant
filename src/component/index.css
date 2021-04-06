@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    padding: 10px 70px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 80vh;
+}
+.info{
+    width: 50%;
+
+}
+.icon{
+    width: 50%;
+  text-align: center;
+  height: auto;
+  height: 100px!;
+}
+.info>p {
+  font-size: 20px;
+  font-family: 'RocknRoll One';
+  text-align: left;
+ 
+
+}
