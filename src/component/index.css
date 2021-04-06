@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
-*{
+body{
     padding: 0;
     margin:0;
     box-sizing: border-box;
+   height: 100%;
+   margin-bottom: 20px !important;
+  
 }
 
 .container {
@@ -11,10 +14,13 @@
     padding: 10px 70px !important;
     align-items: center !important;
     justify-content: center !important;
-    height: 80vh;
+    margin-bottom: 20px !important;
+    height: 80vh !important;
+
 }
 .info{
     width: 50%;
+    text-align: justify;
 
 }
 .icon{
@@ -28,5 +34,56 @@
   font-family: 'RocknRoll One';
   text-align: left;
  
+
+}
+
+/* responsive view */
+
+@media screen and (max-width:900px)  {
+  *{
+    box-sizing: border-box;
+        margin-bottom: 20px !important;
+  }
+  .info{
+    text-align: justify;
+  }
+     .container{
+       display: flex;
+      max-width: 900px !important;
+        padding:15px 40px !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width:700px){
+    *{
+      box-sizing: border-box;
+    }
+    .info{
+      text-align: justify;
+    }
+      .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px !important;
+
+      }
+
+}
+
+@media screen and (max-width:500px){
+  *{
+    box-sizing: border-box;
+  }
+  .info{
+    text-align: justify;
+  }
+    .container{
+      display: flex;
+      flex-direction: column;
+      max-width: 500px !important;
+
+    }
 
 }

@@ -180,10 +180,13 @@ html{
 /* responsive view  */
 
 @media screen and (max-width:900px) {
-    
+    *{  
+          box-sizing: border-box !important;
+        }
     .header{
         padding:15px 0;
         font-size:.9rem;
+        width: 100%;
     }
     .whoWeAre,.whatWeThink,.expertise{
         padding:40px 15px;
@@ -200,7 +203,9 @@ html{
 }
 
 @media screen and (max-width:700px){
-
+    *{  
+        box-sizing: border-box !important;
+      }
     .header__menu>a{
         font-size:.7rem;
         padding:0 10px;
@@ -234,6 +239,9 @@ html{
 }
 
 @media screen and (max-width:500px){
+    *{  
+        box-sizing: border-box !important;
+      }
     .header__menu>a{
         font-size: .5rem;
         padding:0 5px;
