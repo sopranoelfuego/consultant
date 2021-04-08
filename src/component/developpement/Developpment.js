@@ -4,7 +4,7 @@ export default function Developpment() {
     return (
         <div className="container">
         <div className="icon">
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6luZUcPCL21NQoV_kayhL1ak3FlwkMuzVg&usqp=CAU"/>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6luZUcPCL21NQoV_kayhL1ak3FlwkMuzVg&usqp=CAU" alt="developpement"/>
         </div>
         <div className="info">
                <p>Dialogue et partenariat public-privé </p>

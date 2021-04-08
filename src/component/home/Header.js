@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {useHistory,useLocation,Link} from "react-router-dom"
  
  function Header (){
