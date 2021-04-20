@@ -136,7 +136,7 @@ reintegration" */}
             {/* LOCATION */}
             <div className="location" id="contact">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.474491860405!2d29.3510956115549!3d-3.382260682647882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c183b5df43c8b7%3A0x9f754f74e0c16efd!2siHela%20Cr%C3%A9dit%20Union!5e0!3m2!1sen!2sbi!4v1618925181979!5m2!1sen!2sbi"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1DbyMWEXQT1zLFh7kK2u4kUajlX1NrZiV"
                     width="600"
                     height="450"
                     style={{ border: "0" }}
@@ -148,8 +148,8 @@ reintegration" */}
                 <div className="location__info" data-aos="zoom-in" data-aos-duration="1000">
                     <h2>Location</h2>
                     <p>
-                        Bujumbura,BURUNDI, Boulevard Melchior Ndadaye, Immeuble eHela,1er
-                        étage
+                        Bujumbura, BURUNDI,Boulevard de l'independance,Peace House, 1er
+                        étage, numéro 19
                     </p>
                     <h2>Contactez nous</h2>
                     <p>
