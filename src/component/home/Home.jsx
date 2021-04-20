@@ -116,7 +116,7 @@ reintegration" */}
                 <div className="expertiseOptions">
                     <a className="option" href="/developpement">
                         <i className="fas fa-people-carry" />
-                        <h5>Developpement local</h5>
+                        <h5>Développement local</h5>
                     </a>
                     <a className="option" href="/gestionprojets">
                         <i className="fas fa-tasks" />
@@ -128,7 +128,7 @@ reintegration" */}
                     </a>
                     <a className="option" href="/reintegration">
                         <i className="fas fa-hand-holding-usd" />
-                        <h5>Reintegration socio-economique</h5>
+                        <h5>Réintégration socio-économique</h5>
                     </a>
                 </div>
             </div>
@@ -136,19 +136,20 @@ reintegration" */}
             {/* LOCATION */}
             <div className="location" id="contact">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.4305575860762!2d29.370169213958146!3d-3.382113142454779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c182e277b66cb1%3A0xad879699845fe2a4!2sBoulevard%20de%20l&#39;Ind%C3%A9pendance%2C%20Bujumbura%2C%20Burundi!5e1!3m2!1sfr!2sus!4v1617652976758!5m2!1sfr!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.474491860405!2d29.3510956115549!3d-3.382260682647882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c183b5df43c8b7%3A0x9f754f74e0c16efd!2siHela%20Cr%C3%A9dit%20Union!5e0!3m2!1sen!2sbi!4v1618925181979!5m2!1sen!2sbi"
                     width="600"
                     height="450"
-                    style={{ border: 0 }}
+                    style={{ border: "0" }}
                     allowFullScreen=""
-                    title="map"
                     loading="lazy"
+                    title="location"
                 />
+
                 <div className="location__info" data-aos="zoom-in" data-aos-duration="1000">
                     <h2>Location</h2>
                     <p>
-                        Bujumbura,BURUNDI,Boulevard de l'independance, Peace House, 1er
-                        étage, numéro 19.
+                        Bujumbura,BURUNDI, Boulevard Melchior Ndadaye, Immeuble eHela,1er
+                        étage
                     </p>
                     <h2>Contactez nous</h2>
                     <p>
