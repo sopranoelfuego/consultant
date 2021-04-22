@@ -207,6 +207,7 @@ html{
     }
     .whoWeAre,.whatWeThink,.expertise{
         padding:40px 15px;
+        overflow: hidden;
     }
 
     .whoWeAre>img,.whatWeThink>img,.expertise>img{

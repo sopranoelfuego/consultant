@@ -9,24 +9,26 @@ body{
 }
 
 .container {
-    height:100vh;
+    
     display: flex;
-    padding: 100px 70px !important;
+    padding: 100px 14vw !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-between !important;
     margin-bottom: 20px !important;
     
 
 }
 .info{
-    width: 50%;
+
+    flex:1;
     text-align: justify;
 
 }
 .icon{
-    width: 50%;
+    /* width: 50%; */
+    flex:1;
   text-align: center;
-  height: auto;
+  /* height: auto; */
   height: 100px!;
 }
 .info>p {
@@ -52,6 +54,7 @@ body{
       max-width: 900px !important;
         padding:15px 40px !important;
         width: 100% !important;
+        min-height: 70vh;
         margin-bottom: 20px !important;
     }
 }
@@ -62,6 +65,10 @@ body{
     }
     .info{
       text-align: justify;
+      width: 100%;
+    }
+    .info>p{
+      text-align:justify
     }
       .container{
         display: flex;
