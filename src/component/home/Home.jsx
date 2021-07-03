@@ -154,7 +154,7 @@ reintegration" */}
                     <h2>Contactez nous</h2>
                     <p>
                         Phone:(+257) 79 955 747 <br />
-                        gd-experts2020@gmail.com
+                        info@gd-experts.org
                     </p>
                 </div>
 
